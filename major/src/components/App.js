@@ -1,10 +1,12 @@
-import './css/App.css';
+import "./css/App.css";
+import HeroSection from "./herohome";
+import Footer from "./Footer";
 
 function App() {
   return (
-    < >
+    <>
       <h3>Hi Navbar there</h3>
-      <h1>CODESCRIPT MAJOR PROJECT / body</h1>
+      <HeroSection></HeroSection>
       <h3>Footer here</h3>
     </>
   );
