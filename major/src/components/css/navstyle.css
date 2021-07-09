@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+main {
+    margin: 16px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: rgb(248, 248, 248);
+    color: rgb(20, 0, 204);
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size:large;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.navbar__title {
+    margin-right: auto;
+    font-size: 150%;
+    padding: 6px 8px;
+}
+
+.navbar__item {
+    padding: 8px 8px;
+    padding-left: 50px;
+    cursor: pointer;
+    vertical-align: middle;
+    color: black;
+}

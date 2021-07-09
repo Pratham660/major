@@ -4,12 +4,12 @@ import Login from "./login"
 import Register from "./register"
 import "./css/App.css";
 import HeroSection from "./herohome";
-
+ import Navbar from "./routes/Navbar";
+import Footer from "./routes/Footer";
 function App() {
   return (
     <div>
-    <div>
-      <h1>Navbar</h1>
+      <Navbar></Navbar>
       <Router>
         <Switch>  
         <Route path="/login" component={Login} />
@@ -17,10 +17,7 @@ function App() {
         <Route path="/" component={HeroSection} />
         </Switch>
       </Router>
-      <h1>Footer</h1>
-    </div>
-
-    
+      <Footer></Footer>
     </div>
   );
 }
