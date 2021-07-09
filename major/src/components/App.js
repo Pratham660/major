@@ -9,18 +9,18 @@ function App() {
   return (
     <div>
     <div>
+      <h1>Navbar</h1>
       <Router>
-        <Switch>
+        <Switch>  
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
+        <Route path="/" component={HeroSection} />
         </Switch>
       </Router>
+      <h1>Footer</h1>
     </div>
-    <div>
-      <h3>Hi Navbar there</h3>
-      <HeroSection></HeroSection>
-      <h3>Footer here</h3>
-    </div>
+
+    
     </div>
   );
 }
