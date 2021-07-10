@@ -11,14 +11,14 @@ import hacker from "../images/hacker.png";
 export default function Footer() {
   return (
       <>
-    <div className="card text-center">
+    <div className="card text-center" style={{position:"relative"}}>
       <div className="card-body footer1">
         <div className="container-fluid">
             <div className="col-lg-3">
             <a class="navbar__title " href="#"><img src={logo1} width="65%"></img></a> 
             <a class="navbar__title " href="#"><img src={logo} width="75%"></img></a> 
-            <p></p> 
-            <p className="text">Your one stop to </p>
+            <p></p>
+            <p className="text">Your one stop to</p>
             <h3 className="header-title">CODE . COLLABORATE . CREATE</h3>
             </div>
             <div className="col-lg-3 st">
