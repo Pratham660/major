@@ -1,0 +1,16 @@
+.footer1{
+    background-color: rgb(238, 251, 255);
+}
+.footer2{
+    background-color: rgb(214, 247, 255);
+    padding: 5px;
+}
+.ico{
+    margin: 20px;
+}
+.st{
+    margin-top: 40px;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(2, 2, 196);
+}
