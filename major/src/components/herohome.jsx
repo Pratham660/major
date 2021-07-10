@@ -14,7 +14,7 @@ const HeroSection = () => {
   return (
     <div className="bgimg">
       <div className="header-hero">
-        <div className="container">
+        <div className="container" style={{marginTop:"0px"}}>
           <img
             src={Logo}
             alt="Logo"
@@ -44,8 +44,8 @@ const HeroSection = () => {
                     className="header-title"
                     options={{
                       strings: ["CODE", "COLLABORATE", "CREATE"],
-                      delay: 35,
-                      deleteSpeed: 25,
+                      delay: 30,
+                      deleteSpeed: 20,
                       autoStart: true,
                       loop: true,
                       cursor: "_",
@@ -75,7 +75,6 @@ const HeroSection = () => {
 
       <div className="header-hero">
         <div className="container">
-          {/* <img src={Logo} alt="Logo" style={{maxHeight:"300px" , float:"right", marginRight:"0px" , marginTop:"20vh"}}/>; */}
           <div className="col" style={{ textAlign: "center" }}>
             <div style={{ marginBottom: "70px" }}>
               <h2 class="HowItWorks_header__394j-">Features</h2>
@@ -137,7 +136,6 @@ const HeroSection = () => {
       {/* our team section */}
       <div className="header-hero">
         <div className="container">
-          {/* <img src={Logo} alt="Logo" style={{maxHeight:"300px" , float:"right", marginRight:"0px" , marginTop:"20vh"}}/>; */}
           <div className="col" style={{ textAlign: "center" }}>
             <div style={{ marginBottom: "70px" }}>
               <h2 class="HowItWorks_header__394j-">Our Team</h2>
