@@ -10,18 +10,26 @@ import hacker from "../images/hacker.png";
 
 export default function Footer() {
   return (
-      <>
-    <div className="card text-center" style={{position:"relative"}}>
-      <div className="card-body footer1">
-        <div className="container-fluid">
-            <div className="col-lg-3">
-            <a class="navbar__title " href="#"><img src={logo1} width="65%"></img></a> 
-            <a class="navbar__title " href="#"><img src={logo} width="75%"></img></a> 
-            <p></p>
-            <p className="text">Your one stop to</p>
-            <h3 className="header-title">CODE . COLLABORATE . CREATE</h3>
-            </div>
-            <div className="col-lg-3 st">
+    <>
+      <div
+        className="card text-center"
+        style={{ position: "relative" }}
+      >
+        <div className="card-body footer1">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-lg-4">
+                <a class="navbar__title " href="#">
+                  <img src={logo1} width="65%"></img>
+                </a>
+                <a class="navbar__title " href="#">
+                  <img src={logo} width="75%"></img>
+                </a>
+                <p></p>
+                <p className="text">Your one stop to</p>
+                <h3 className="header-title">CODE . COLLABORATE . CREATE</h3>
+              </div>
+              {/* <div className="col-lg-3 st">
                 <ul>
                     <li>About Us</li>
                     <li>Contact Us</li>
@@ -30,45 +38,48 @@ export default function Footer() {
                     <li>About Us</li>
                     <li>Contact Us</li>
                 </ul>
-            </div>
-            <div className="col-lg-3 st">
-            <ul>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
+            </div> */}
+              <div className="col-lg-4 st" style={{marginTop:"40px"}}>
+                <ul>
+                  <li>About Us</li>
+                  <li>Contact Us</li>
+                  <li>About Us</li>
+                  <li>Contact Us</li>
+                  <li>About Us</li>
+                  <li>Contact Us</li>
                 </ul>
-            </div>
-            <div className="col-lg-3">
-            <img src={hacker} width="80%"></img><br></br><br></br>
-            <div className="container ico">
-                <div className="row">
+              </div>
+              <div className="col-lg-4">
+                <img src={hacker} width="80%"></img>
+                <br></br>
+                <br></br>
+                <div className="container ico">
+                  <div className="row">
                     <div className="col-lg-3">
-                    <FaFacebook size="23px" color="black" />
+                      <FaFacebook size="23px" color="black" />
                     </div>
                     <div className="col-lg-3">
-                    <FaInstagram size="23px" color="black" />
+                      <FaInstagram size="23px" color="black" />
                     </div>
                     <div className="col-lg-3">
-                    <FaLinkedinIn size="23px" color="black" />
+                      <FaLinkedinIn size="23px" color="black" />
                     </div>
                     <div className="col-lg-3">
-                    <FaGithub size="23px" color="black" />
+                      <FaGithub size="23px" color="black" />
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            </div>
+          </div>
+        </div>
+        <div className=" text-muted footer2">
+          <p className="changecolor">
+            Copyright 2021 © CodeScript All rights reserved | Privacy Policy |
+            Terms & Conditions
+          </p>
         </div>
       </div>
-      <div className=" text-muted footer2">
-        <p className="changecolor">
-          Copyright 2021 © CodeScript All rights reserved | Privacy Policy |
-          Terms & Conditions
-        </p>
-      </div>
-    </div>
     </>
   );
 }
