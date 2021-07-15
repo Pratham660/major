@@ -1,7 +1,6 @@
 import React from "react";
 import "./css/ipage2.css";
-import { Card } from "react-bootstrap";
-import { Button } from 'react-bootstrap';
+
 
 
 // const MoreDeets = () => {
@@ -105,11 +104,11 @@ import { Button } from 'react-bootstrap';
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
-              <div class="card" style={{ width: "30rem" , height: "220px" , marginLeft:"10px"}}>
-                <div class="card-body">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
                   <div className="row">
                     <div className="col-lg-8">
-                    <h1 class="card-title">ARRAY</h1>
+                    <h1 className="card-title">ARRAY</h1>
                     </div>
                     {/* <div className="col-lg-4">
                     <h5 class="card-title"></h5>
@@ -120,19 +119,20 @@ import { Button } from 'react-bootstrap';
 
                   </div>
                   <br></br>
-                  <p class="card-text">Total Questions : 31 </p>
-                  <p class="card-text">Questions Completed : 31 </p>
-                  <a href="#" class="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-4">
-              <div class="card" style={{ width: "30rem" , height: "220px",marginLeft:"10px"}}>
-                <div class="card-body">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
                   <div className="row">
                     <div className="col-lg-8">
-                    <h1 class="card-title">Dynamic Programming</h1>
+                    <h1 className="card-title">ARRAY</h1>
                     </div>
                     {/* <div className="col-lg-4">
                     <h5 class="card-title"></h5>
@@ -143,19 +143,20 @@ import { Button } from 'react-bootstrap';
 
                   </div>
                   <br></br>
-                  <p class="card-text">Total Questions : 31 </p>
-                  <p class="card-text">Questions Completed : 31 </p>
-                  <a href="#" class="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-4">
-              <div class="card" style={{ width: "30rem" , height: "220px", marginLeft:"10px"}}>
-                <div class="card-body">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
                   <div className="row">
                     <div className="col-lg-8">
-                    <h1 class="card-title">Dynamic Programming</h1>
+                    <h1 className="card-title">ARRAY</h1>
                     </div>
                     {/* <div className="col-lg-4">
                     <h5 class="card-title"></h5>
@@ -166,15 +167,317 @@ import { Button } from 'react-bootstrap';
 
                   </div>
                   <br></br>
-                  <p class="card-text">Total Questions : 31 </p>
-                  <p class="card-text">Questions Completed : 31 </p>
-                  <a href="#" class="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
                 </div>
               </div>
             </div>
-
            
           </div>
+
+          <div className="row" style={{marginTop:"30px"}}>
+            <div className="col-lg-4">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
+                  <div className="row">
+                    <div className="col-lg-8">
+                    <h1 className="card-title">ARRAY</h1>
+                    </div>
+                    {/* <div className="col-lg-4">
+                    <h5 class="card-title"></h5>
+                    </div> */}
+                    <div className="col-lg-4">
+                    <img src="https://image.flaticon.com/icons/png/512/3024/3024163.png" width="50"></img>
+                    </div>
+
+                  </div>
+                  <br></br>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
+                  <div className="row">
+                    <div className="col-lg-8">
+                    <h1 className="card-title">ARRAY</h1>
+                    </div>
+                    {/* <div className="col-lg-4">
+                    <h5 class="card-title"></h5>
+                    </div> */}
+                    <div className="col-lg-4">
+                    <img src="https://image.flaticon.com/icons/png/512/3024/3024163.png" width="50"></img>
+                    </div>
+
+                  </div>
+                  <br></br>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
+                  <div className="row">
+                    <div className="col-lg-8">
+                    <h1 className="card-title">ARRAY</h1>
+                    </div>
+                    {/* <div className="col-lg-4">
+                    <h5 class="card-title"></h5>
+                    </div> */}
+                    <div className="col-lg-4">
+                    <img src="https://image.flaticon.com/icons/png/512/3024/3024163.png" width="50"></img>
+                    </div>
+
+                  </div>
+                  <br></br>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                </div>
+              </div>
+            </div>
+            
+           
+          </div>
+          <div className="row" style={{marginTop:"30px"}}>
+            <div className="col-lg-4">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
+                  <div className="row">
+                    <div className="col-lg-8">
+                    <h1 className="card-title">ARRAY</h1>
+                    </div>
+                    {/* <div className="col-lg-4">
+                    <h5 class="card-title"></h5>
+                    </div> */}
+                    <div className="col-lg-4">
+                    <img src="https://image.flaticon.com/icons/png/512/3024/3024163.png" width="50"></img>
+                    </div>
+
+                  </div>
+                  <br></br>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
+                  <div className="row">
+                    <div className="col-lg-8">
+                    <h1 className="card-title">ARRAY</h1>
+                    </div>
+                    {/* <div className="col-lg-4">
+                    <h5 class="card-title"></h5>
+                    </div> */}
+                    <div className="col-lg-4">
+                    <img src="https://image.flaticon.com/icons/png/512/3024/3024163.png" width="50"></img>
+                    </div>
+
+                  </div>
+                  <br></br>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
+                  <div className="row">
+                    <div className="col-lg-8">
+                    <h1 className="card-title">ARRAY</h1>
+                    </div>
+                    {/* <div className="col-lg-4">
+                    <h5 class="card-title"></h5>
+                    </div> */}
+                    <div className="col-lg-4">
+                    <img src="https://image.flaticon.com/icons/png/512/3024/3024163.png" width="50"></img>
+                    </div>
+
+                  </div>
+                  <br></br>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                </div>
+              </div>
+            </div>
+            
+           
+          </div>
+          <div className="row" style={{marginTop:"30px"}}>
+            <div className="col-lg-4">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
+                  <div className="row">
+                    <div className="col-lg-8">
+                    <h1 className="card-title">ARRAY</h1>
+                    </div>
+                    {/* <div className="col-lg-4">
+                    <h5 class="card-title"></h5>
+                    </div> */}
+                    <div className="col-lg-4">
+                    <img src="https://image.flaticon.com/icons/png/512/3024/3024163.png" width="50"></img>
+                    </div>
+
+                  </div>
+                  <br></br>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
+                  <div className="row">
+                    <div className="col-lg-8">
+                    <h1 className="card-title">ARRAY</h1>
+                    </div>
+                    {/* <div className="col-lg-4">
+                    <h5 class="card-title"></h5>
+                    </div> */}
+                    <div className="col-lg-4">
+                    <img src="https://image.flaticon.com/icons/png/512/3024/3024163.png" width="50"></img>
+                    </div>
+
+                  </div>
+                  <br></br>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
+                  <div className="row">
+                    <div className="col-lg-8">
+                    <h1 className="card-title">ARRAY</h1>
+                    </div>
+                    {/* <div className="col-lg-4">
+                    <h5 class="card-title"></h5>
+                    </div> */}
+                    <div className="col-lg-4">
+                    <img src="https://image.flaticon.com/icons/png/512/3024/3024163.png" width="50"></img>
+                    </div>
+
+                  </div>
+                  <br></br>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                </div>
+              </div>
+            </div>
+            
+           
+          </div>
+          <div className="row" style={{marginTop:"30px"}}>
+            <div className="col-lg-4">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
+                  <div className="row">
+                    <div className="col-lg-8">
+                    <h1 className="card-title">ARRAY</h1>
+                    </div>
+                    {/* <div className="col-lg-4">
+                    <h5 class="card-title"></h5>
+                    </div> */}
+                    <div className="col-lg-4">
+                    <img src="https://image.flaticon.com/icons/png/512/3024/3024163.png" width="50"></img>
+                    </div>
+
+                  </div>
+                  <br></br>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
+                  <div className="row">
+                    <div className="col-lg-8">
+                    <h1 className="card-title">ARRAY</h1>
+                    </div>
+                    {/* <div className="col-lg-4">
+                    <h5 class="card-title"></h5>
+                    </div> */}
+                    <div className="col-lg-4">
+                    <img src="https://image.flaticon.com/icons/png/512/3024/3024163.png" width="50"></img>
+                    </div>
+
+                  </div>
+                  <br></br>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="card shadow" style={{ width: "30rem" , height: "220px" , marginLeft:"10px", borderRadius:"15px"}}>
+                <div className="card-body">
+                  <div className="row">
+                    <div className="col-lg-8">
+                    <h1 className="card-title">ARRAY</h1>
+                    </div>
+                    {/* <div className="col-lg-4">
+                    <h5 class="card-title"></h5>
+                    </div> */}
+                    <div className="col-lg-4">
+                    <img src="https://image.flaticon.com/icons/png/512/3024/3024163.png" width="50"></img>
+                    </div>
+
+                  </div>
+                  <br></br>
+                  <p className="card-text">Total Questions : 31 </p>
+                  <p className="card-text">Questions Completed : 31 </p>
+                  <br></br>
+                  <a href="#" className="btn btn-primary round pl-5 pr-5 mt-3"><p className="btnc">Solve</p></a>
+                </div>
+              </div>
+            </div>
+            
+           
+          </div>
+          
         </div>
       </>
     );
