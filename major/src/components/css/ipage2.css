@@ -1,0 +1,18 @@
+.btn{
+    width: 100px;
+    height: 34px;
+}
+.btnc{
+    font-size: medium;
+    color: white;
+}
+.card-text{
+    font-family:"poppins";
+    color: rgb(110, 110, 110);
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.card-title{
+    font-family: "poppins";
+    font-size: x-large;
+}
