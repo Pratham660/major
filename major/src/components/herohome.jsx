@@ -25,7 +25,7 @@ const HeroSection = () => {
               marginTop: "15vh",
             }}
           />
-          ;
+          
           <div className="row justify-content-left">
             <div className="col-xl-11 col-lg-11">
               <div
