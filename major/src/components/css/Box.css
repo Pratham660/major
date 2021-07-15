@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10 {
+  background-color: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  position :relative;
+   height: 300px; 
+  max-height: 35vh;
+  -webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+  background: inherit;
+      backdrop-filter: blur(10px);
+ 
+}
+.abc{
+  height:50px;
+  width:50px;
+}
+
+.box {
+  margin: 65px;
+  background: inherit;
+      backdrop-filter: blur(10px);
+      font-family: Poppins;
+      width: 200px;
+     
+      
+  
+  
+}
+
+.grid {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.grid > div {
+  flex-basis: calc(25% - 100px);
+}
+
+.boxy {
+  width: 300px;
+  background: green;
+  padding: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boxy:hover {
+  animation: boxyRotation 4s infinite linear;
+}
+
+@keyframes boxyRotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.black-background {
+  background-color: red !important;
+  font-size: 5vh;
+  border-radius: 10px 10px 10px 10px;
+}
