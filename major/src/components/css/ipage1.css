@@ -1,4 +1,15 @@
-.p.ex1 {
-    margin-top: 500px;
-    text-align: center;
-  }
+
+  .abc {
+    margin-top: 50px;
+    margin-bottom: 300px;
+    widht: 100%;
+    }
+    #bannerimage {
+      width: 1250px;
+      background-image: url("../images/banner.jpeg");
+      height: 300px;
+      background-color: rgb(252, 252, 252);
+      background-position: center;
+      margin :auto;
+    }
+    
