@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/ipage1.css";
-import prepare from "./images/prepare.png";
+import banner from "./images/banner.svg";
 
 
 import { Link } from "react-router-dom";
@@ -9,39 +9,29 @@ export default function Ipage1() {
  
   return (
     <>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Choose a Topic
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
-      
+   <div class="Jumbotron" class="text-center" style={{ marginTop:"50px",backgroundColor:"grey"}}>
+     <h1><a href="#">Choose a Topic</a></h1>
 
-    </div>
-
-  </div>
-</nav>
-<div  class="text-center" >
+   </div>
+<div  class="text-center"style={{ marginTop:"100px", marginBottom:"100px"}} >
   <p>Everything  you need to crack your</p>
   <h1>NEXT TECH INTERVIEW</h1>
 </div>
 
-<div   >
-<img src={prepare} class="img-fluid" alt="Responsive image"></img>
+<div id="bannerimage"></div>
+
+<div  class="text-center"style={{ marginTop:"100px"}} >
+  <p>What makes us an awesome</p>
+  <p>Resource for tech interview preparation</p>
+  <p>500+ problems for practice</p>
+  
 </div>
+<div  class="text-center"style={{ marginTop:"100px", marginBottom:"100px"}} >
+  <h1>Problems Solved Count : 96/450</h1>
+  
+</div>
+
+
 
 
 
