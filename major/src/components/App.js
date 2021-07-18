@@ -8,6 +8,8 @@ import Ipage2 from "./ipage2";
 import HeroSection from "./herohome";
 import Navbar from "./routes/Navbar";
 import Footer from "./routes/Footer";
+import NotFoundPage from './NotFoundPage.jsx';
+
 class App extends Component  {
   state = {
     data: null
@@ -34,11 +36,12 @@ class App extends Component  {
       <p>{this.state.data}</p>
       <Router>
         <Switch>  
-        <Route path="/ipage1" component={Ipage1} />
-        <Route path="/ipage2" component={Ipage2} />
-        <Route path="/login" component={Login} />
-        <Route path="/register" component={Register} />
-        <Route path="/" component={HeroSection} />
+        <Route path="/ipage1" exact component={Ipage1} />
+        <Route path="/ipage2" exact component={Ipage2} />
+        <Route path="/login" exact component={Login} />
+        <Route path="/register" exact component={Register} />
+        <Route path="/" exact component={HeroSection} />
+        <Route component={NotFoundPage} />
         </Switch>
       </Router>
       <Footer></Footer>

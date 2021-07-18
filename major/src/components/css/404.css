@@ -1,0 +1,17 @@
+  .round {
+    font-size: 20px;
+    border-radius: 50px !important;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .btnn {
+    display: inline-block;
+    font-weight: 250;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: none;
+    padding: 15px 15px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
