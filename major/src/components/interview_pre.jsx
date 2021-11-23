@@ -1,12 +1,39 @@
 import "./css/interview_pre.css";
 import React from "react";
+import Data from "../data/interview_problemset.json";
 
-const HeroSection = () => {
-  return (
-   <div className="sample2">
-       <h1>hello world this is practice set page</h1>
-   </div>
-  );
+const interview_pre = () => {
+    const DisplayData = Data.map(
+        (problem) => {
+            return (
+                <tr>
+                    <td>0</td>
+                    <td>{problem.topic}</td>
+                    <td>{problem.name}</td>
+                    <td>
+                        <a href={problem.link} target="_blank">  <button className="btn info" onClick='window.location.href="https://www.google.com"'>solve</button> </a>
+                    </td>
+                </tr>
+            )
+        }
+    )
+    return (
+        <div>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Sr.NO</th>
+                        <th>Topic</th>
+                        <th>Name</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {DisplayData}
+                </tbody>
+            </table>
+        </div>
+    )
 };
 
-export default HeroSection;
+export default interview_pre;
