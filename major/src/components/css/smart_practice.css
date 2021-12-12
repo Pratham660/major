@@ -1,0 +1,190 @@
+/* index.css */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+
+/* app.css */
+  body {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+  }
+  
+  .image--cover {
+    width: 175px;
+    height: 175px;
+    border-radius: 35%;
+    border: 5px solid #138d08;
+    object-fit: cover;
+    object-position: center right;
+  }
+  
+  .balls {
+    width: 4em;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  /* loading css start*/
+  .balls div {
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 50%;
+    background-color: #138d08;
+  }
+  
+  .balls div:nth-of-type(1) {
+    transform: translateX(-100%);
+    animation: left-swing 0.5s ease-in alternate infinite;
+  }
+  
+  .balls div:nth-of-type(3) {
+    transform: translateX(-95%);
+    animation: right-swing 0.5s ease-out alternate infinite;
+  }
+  
+  @keyframes left-swing {
+    50%,
+    100% {
+      transform: translateX(95%);
+    }
+  }
+  
+  @keyframes right-swing {
+    50% {
+      transform: translateX(-95%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  /* loading css end */
+  
+  .align {
+    display: grid;
+    place-items: center;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5em;
+    color: rgb(68, 68, 68);
+    margin-bottom: 1.5em;
+  }
+  
+  h4 {
+    font-size: 0.9rem;
+    margin-top: 1em;
+    color: rgb(46, 46, 46);
+    margin-bottom: 1em;
+  }
+  
+  input {
+    font: inherit;
+    outline: 0;
+    margin-bottom: 1.5em;
+    margin-left: 30em;
+  }
+  
+  .form__input {
+    border-radius: 0.25em;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 1.5rem;
+    padding: 0.5em 4em 0.5em 2em;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 19%;
+    left: 60%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  
+  @import url("https://fonts.googleapis.com/css?family=Montserrat");
+  
+  
+  
+  button {
+    position: absolute;
+    /* left: 65%; */
+    /* top: 21%; */
+    transform: translate(-50%, -50%);
+    color: #010d1a;
+    text-decoration: none;
+    font-size: 1em;
+    display: flex;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    padding: 0.5em 2em;
+    border: 2px solid #042901;
+    transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+  }
+  
+  button::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #148d08;
+    transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1),
+      left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+    z-index: -1;
+  }
+  button::after {
+    content: "";
+    display: inline-block;
+    background-image: url("https://image.flaticon.com/icons/png/128/109/109617.png");
+    position: absolute;
+    top: 0;
+    left: calc(100% - 3em);
+    right: 3em;
+    bottom: 0;
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: right 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+  }
+  button:hover {
+    padding: 0.5em 3.5em 0.5em 0.5em;
+  }
+  button:hover::before {
+    left: calc(100% - 3em);
+    right: 0;
+    transition: 0.3s cubic-bezier(0.1, 0, 0.1, 1),
+      left 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+  }
+  button:hover::after {
+    right: 0;
+    transition: right 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+  }
