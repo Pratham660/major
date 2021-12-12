@@ -2,6 +2,7 @@ import React,{Component} from "react"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Login from "./login.jsx"
 import Register from "./register"
+import Smart_practice from "./smart_practice"
 import "./css/App.css";
 import interview_pre from "./interview_pre";
 import Discuss from "./discuss";
@@ -44,6 +45,7 @@ class App extends Component  {
         <Route path="/login" exact component={Login} />
         <Route path="/discuss" exact component={Discuss} />
         <Route path="/register" exact component={Register} />
+        <Route path="/smartpractice" exact component={Smart_practice} />
         <Route path="/" exact component={HeroSection} />
         <Route component={NotFoundPage} />
         </Switch>
