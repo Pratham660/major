@@ -1,10 +1,11 @@
 import React,{Component} from "react"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import Login from "./login"
+import Login from "./login.jsx"
 import Register from "./register"
 import Smart_practice from "./smart_practice"
 import "./css/App.css";
 import interview_pre from "./interview_pre";
+import Discuss from "./discuss";
 import Ipage1 from "./ipage1";
 import Ipage2 from "./ipage2";
 import HeroSection from "./herohome";
@@ -42,6 +43,7 @@ class App extends Component  {
         <Route path="/ipage1" exact component={Ipage1} />
         <Route path="/ipage2" exact component={Ipage2} />
         <Route path="/login" exact component={Login} />
+        <Route path="/discuss" exact component={Discuss} />
         <Route path="/register" exact component={Register} />
         <Route path="/smartpractice" exact component={Smart_practice} />
         <Route path="/" exact component={HeroSection} />
