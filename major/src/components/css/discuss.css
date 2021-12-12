@@ -1,0 +1,60 @@
+/* .doubt{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.doubt1{
+height: 30px;
+margin-left: 25vw;
+width: 650px;
+} */
+.sample
+{
+    margin-left: auto;
+    max-width: 990px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+form{
+    max-width: 700px;
+    margin: auto;
+}
+
+.input-container {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+.input-field {
+  font-size: large;  
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-bottom-left-radius: 20px;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+.btns {
+  font-size: small;
+  font-weight: bold;
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+  border-top-right-radius: 20px;
+}
+
+.btns:hover {
+  opacity: 1;
+  background-color: rgb(21, 138, 255);
+
+}
