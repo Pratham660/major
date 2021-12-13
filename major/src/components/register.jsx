@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import Navbar2 from "./routes/Navbar2";
 class MyForm extends React.Component {
 
   constructor(props) {
@@ -36,6 +37,8 @@ class MyForm extends React.Component {
 
   render() {
     return (
+      <>
+      <Navbar2></Navbar2>
       <form onSubmit={this.handleSubmit}>
         <h1>REGISTER</h1>
         <label>
@@ -46,6 +49,7 @@ class MyForm extends React.Component {
         </label>
         <input type="submit" value="Submit" />
       </form>
+      </>
     );
   }
 }
