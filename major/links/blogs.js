@@ -21,7 +21,8 @@ route.post('/' , (req,res) => {
   console.log("in user.js")
   console.log(req.body.doubt);
     Blog.create( {
-        doubt : req.body.doubt
+        doubt : req.body.doubt,
+        postedby : req.body.postedby
     }).then((user) => {
         res.status(201).send(user)
     }).catch((err) => {
