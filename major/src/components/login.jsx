@@ -26,8 +26,10 @@ class MyForm extends React.Component {
       console.log(res.data);
       for(var user of res.data)
       {
-        if(book.name == user.name)
+        if(book.name == user.name){
+        localStorage.setItem('curruser', user.name);
         window.alert("login success");
+        }
     
       }
     })

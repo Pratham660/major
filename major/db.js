@@ -57,10 +57,21 @@ const User = db.define('users', {
     allowNull:false
   }
 })
-
+const Blog = db.define('blogs', {
+  id: {
+    type: Sequelize.DataTypes.INTEGER,
+    primaryKey: true,
+    autoIncrement: true
+  },
+  doubt: {
+    type: Sequelize.DataTypes.STRING(30),
+    unique: true,
+    allowNull: false
+  }
+})
 db.sync()
 .then(()=> console.log("database synced"))
 .catch((err)=> console.log('error syncing database'))
 module.exports = {
-  db, User
+  db, User, Blog
 }
