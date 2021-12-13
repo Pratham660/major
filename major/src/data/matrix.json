@@ -1,0 +1,52 @@
+[
+    {
+        "number" : 1, "topic" : "Matrix",
+        "name": "Spiral traversal on a Matrix",
+        "link": "https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix/0"
+    },
+    {
+        "number" : 2, "topic" : "Matrix",
+        "name": "Search an element in a matriix",
+        "link": "https://leetcode.com/problems/search-a-2d-matrix/"
+    },
+    {
+        "number" : 3, "topic" : "Matrix",
+        "name": "Find median in a row wise sorted matrix",
+        "link": "https://practice.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1"
+    },
+    {
+        "number" : 4, "topic" : "Matrix",
+        "name": "Find row with maximum no. of 1's",
+        "link": "https://practice.geeksforgeeks.org/problems/row-with-max-1s0023/1"
+    },
+    {
+        "number" : 5, "topic" : "Matrix",
+        "name": "Print elements in sorted order using row-column wise sorted matrix",
+        "link": "https://practice.geeksforgeeks.org/problems/sorted-matrix/0"
+    },
+    {
+        "number" : 6, "topic" : "Matrix",
+        "name": "Maximum size rectangle",
+        "link": "https://practice.geeksforgeeks.org/problems/max-rectangle/1"
+    },
+    {
+        "number" : 7, "topic" : "Matrix",
+        "name": "Find a specific pair in matrix",
+        "link": "https://www.geeksforgeeks.org/find-a-specific-pair-in-matrix/"
+    },
+    {
+        "number" : 8, "topic" : "Matrix",
+        "name": "Rotate matrix by 90 degrees",
+        "link": "https://www.geeksforgeeks.org/rotate-a-matrix-by-90-degree-in-clockwise-direction-without-using-any-extra-space/"
+    },
+    {
+        "number" : 9, "topic" : "Matrix",
+        "name": "Kth smallest element in a row-column wise sorted matrix",
+        "link": "https://practice.geeksforgeeks.org/problems/kth-element-in-matrix/1"
+    },
+    {
+        "number" : 10, "topic" : "Matrix",
+        "name": "Common elements in all rows of a given matrix",
+        "link": "https://www.geeksforgeeks.org/common-elements-in-all-rows-of-a-given-matrix/"
+    }
+]

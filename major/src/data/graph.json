@@ -1,0 +1,222 @@
+[
+    {
+        "number" : 1, "topic" : "Graph",
+        "name": "Create a Graph, print it",
+        "link": "https://1drv.ms/t/s!AqTOHFO77CqEiRua06v1PATyiFg5"
+    },
+    {
+        "number" : 2, "topic" : "Graph",
+        "name": "Implement BFS algorithm ",
+        "link": "https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1"
+    },
+    {
+        "number" : 3, "topic" : "Graph",
+        "name": "Implement DFS Algo ",
+        "link": "https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/"
+    },
+    {
+        "number" : 4, "topic" : "Graph",
+        "name": "Detect Cycle in Directed Graph using BFS/DFS Algo ",
+        "link": "https://www.geeksforgeeks.org/detect-cycle-in-a-graph/"
+    },
+    {
+        "number" : 5, "topic" : "Graph",
+        "name": "Detect Cycle in UnDirected Graph using BFS/DFS Algo ",
+        "link": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1"
+    },
+    {
+        "number" : 6, "topic" : "Graph",
+        "name": "Search in a Maze",
+        "link": "https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1"
+    },
+    {
+        "number" : 7, "topic" : "Graph",
+        "name": "Minimum Step by Knight",
+        "link": "https://practice.geeksforgeeks.org/problems/steps-by-knight/0"
+    },
+    {
+        "number" : 8, "topic" : "Graph",
+        "name": "flood fill algo",
+        "link": "https://leetcode.com/problems/flood-fill/"
+    },
+    {
+        "number" : 9, "topic" : "Graph",
+        "name": "Clone a graph",
+        "link": "https://leetcode.com/problems/clone-graph/"
+    },
+    {
+        "number" : 10, "topic" : "Graph",
+        "name": "Making wired Connections",
+        "link": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/"
+    },
+    {
+        "number" : 11, "topic" : "Graph",
+        "name": "word Ladder ",
+        "link": "https://leetcode.com/problems/word-ladder/"
+    },
+    {
+        "number" : 12, "topic" : "Graph",
+        "name": "Dijkstra algo",
+        "link": "https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/"
+    },
+    {
+        "number" : 13, "topic" : "Graph",
+        "name": "Implement Topological Sort ",
+        "link": "https://practice.geeksforgeeks.org/problems/topological-sort/1"
+    },
+    {
+        "number" : 14, "topic" : "Graph",
+        "name": "Minimum time taken by each job to be completed given by a Directed Acyclic Graph",
+        "link": "https://www.geeksforgeeks.org/minimum-time-taken-by-each-job-to-be-completed-given-by-a-directed-acyclic-graph/"
+    },
+    {
+        "number" : 15, "topic" : "Graph",
+        "name": "Find whether it is possible to finish all tasks or not from given dependencies",
+        "link": "https://www.geeksforgeeks.org/find-whether-it-is-possible-to-finish-all-tasks-or-not-from-given-dependencies/"
+    },
+    {
+        "number" : 16, "topic" : "Graph",
+        "name": "Find the no. of Isalnds",
+        "link": "https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1"
+    },
+    {
+        "number" : 17, "topic" : "Graph",
+        "name": "Given a sorted Dictionary of an Alien Language, find order of characters",
+        "link": "https://practice.geeksforgeeks.org/problems/alien-dictionary/1"
+    },
+    {
+        "number" : 18, "topic" : "Graph",
+        "name": "Implement Kruksal\u2019sAlgorithm",
+        "link": "https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/"
+    },
+    {
+        "number" : 19, "topic" : "Graph",
+        "name": "Implement Prim\u2019s Algorithm",
+        "link": "https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/"
+    },
+    {
+        "number" : 20, "topic" : "Graph",
+        "name": "Total no. of Spanning tree in a graph",
+        "link": "https://www.geeksforgeeks.org/total-number-spanning-trees-graph/"
+    },
+    {
+        "number" : 21, "topic" : "Graph",
+        "name": "Implement Bellman Ford Algorithm",
+        "link": "https://practice.geeksforgeeks.org/problems/negative-weight-cycle/0"
+    },
+    {
+        "number" : 22, "topic" : "Graph",
+        "name": "Implement Floyd warshallAlgorithm",
+        "link": "https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall/0"
+    },
+    {
+        "number" : 23, "topic" : "Graph",
+        "name": "Travelling Salesman Problem",
+        "link": "https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/"
+    },
+    {
+        "number" : 24, "topic" : "Graph",
+        "name": "Graph ColouringProblem",
+        "link": "https://www.geeksforgeeks.org/graph-coloring-applications/"
+    },
+    {
+        "number" : 25, "topic" : "Graph",
+        "name": "Snake and Ladders Problem",
+        "link": "https://leetcode.com/problems/snakes-and-ladders/"
+    },
+    {
+        "number" : 26, "topic" : "Graph",
+        "name": "Find bridge in a graph",
+        "link": "https://www.geeksforgeeks.org/bridge-in-a-graph/"
+    },
+    {
+        "number" : 27, "topic" : "Graph",
+        "name": "Count Strongly connected Components(Kosaraju Algo)",
+        "link": "https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1"
+    },
+    {
+        "number" : 28, "topic" : "Graph",
+        "name": "Check whether a graph is Bipartite or Not",
+        "link": "https://www.geeksforgeeks.org/bipartite-graph/"
+    },
+    {
+        "number" : 29, "topic" : "Graph",
+        "name": "Detect Negative cycle in a graph",
+        "link": "https://www.geeksforgeeks.org/detect-negative-cycle-graph-bellman-ford/"
+    },
+    {
+        "number" : 30, "topic" : "Graph",
+        "name": "Longest path in a Directed Acyclic Graph",
+        "link": "https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/"
+    },
+    {
+        "number" : 31, "topic" : "Graph",
+        "name": "Journey to the Moon",
+        "link": "https://www.hackerrank.com/challenges/journey-to-the-moon/problem"
+    },
+    {
+        "number" : 32, "topic" : "Graph",
+        "name": "Cheapest Flights Within K Stops",
+        "link": "https://leetcode.com/problems/cheapest-flights-within-k-stops/description/"
+    },
+    {
+        "number" : 33, "topic" : "Graph",
+        "name": "Oliver and the Game",
+        "link": "https://www.hackerearth.com/practice/algorithms/graphs/topological-sort/practice-problems/algorithm/oliver-and-the-game-3/"
+    },
+    {
+        "number" : 34, "topic" : "Graph",
+        "name": "Water Jug problem using BFS",
+        "link": "https://www.geeksforgeeks.org/water-jug-problem-using-bfs/"
+    },
+    {
+        "number" : 35, "topic" : "Graph",
+        "name": "Water Jug problem using BFS",
+        "link": "https://www.geeksforgeeks.org/water-jug-problem-using-bfs/"
+    },
+    {
+        "number" : 36, "topic" : "Graph",
+        "name": "Find if there is a path of more thank length from a source",
+        "link": "https://www.geeksforgeeks.org/find-if-there-is-a-path-of-more-than-k-length-from-a-source/"
+    },
+    {
+        "number" : 37, "topic" : "Graph",
+        "name": "M-ColouringProblem",
+        "link": "https://practice.geeksforgeeks.org/problems/m-coloring-problem/0"
+    },
+    {
+        "number" : 38, "topic" : "Graph",
+        "name": "Minimum edges to reverse o make path from source to destination",
+        "link": "https://www.geeksforgeeks.org/minimum-edges-reverse-make-path-source-destination/"
+    },
+    {
+        "number" : 39, "topic" : "Graph",
+        "name": "Paths to travel each nodes using each edge(Seven Bridges)",
+        "link": "https://www.geeksforgeeks.org/paths-travel-nodes-using-edgeseven-bridges-konigsberg/"
+    },
+    {
+        "number" : 40, "topic" : "Graph",
+        "name": "Vertex Cover Problem",
+        "link": "https://www.geeksforgeeks.org/vertex-cover-problem-set-1-introduction-approximate-algorithm-2/"
+    },
+    {
+        "number" : 41, "topic" : "Graph",
+        "name": "Chinese Postman or Route Inspection",
+        "link": "https://www.geeksforgeeks.org/chinese-postman-route-inspection-set-1-introduction/"
+    },
+    {
+        "number" : 42, "topic" : "Graph",
+        "name": "Number of Triangles in a Directed and Undirected Graph",
+        "link": "https://www.geeksforgeeks.org/number-of-triangles-in-directed-and-undirected-graphs/"
+    },
+    {
+        "number" : 43, "topic" : "Graph",
+        "name": "Minimise the cashflow among a given set of friends who have borrowed money from each other",
+        "link": "https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/"
+    },
+    {
+        "number" : 44, "topic" : "Graph",
+        "name": "Two Clique Problem",
+        "link": "https://www.geeksforgeeks.org/two-clique-problem-check-graph-can-divided-two-cliques/"
+    }
+]

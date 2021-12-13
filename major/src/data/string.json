@@ -1,0 +1,217 @@
+[
+    {
+        "number" : 1, "topic" : "String",
+        "name": "Reverse a String",
+        "link": "https://leetcode.com/problems/reverse-string/"
+    },
+    {
+        "number" : 2, "topic" : "String",
+        "name": "Check whether a String is Palindrome or not",
+        "link": "https://practice.geeksforgeeks.org/problems/palindrome-string0817/1"
+    },
+    {
+        "number" : 3, "topic" : "String",
+        "name": "Find Duplicate characters in a string",
+        "link": "https://www.geeksforgeeks.org/print-all-the-duplicates-in-the-input-string/"
+    },
+    {
+        "number" : 4, "topic" : "String",
+        "name": "Why strings are immutable in Java?",
+        "link": "absent"
+    },
+    {
+        "number" : 5, "topic" : "String",
+        "name": "Write a Code to check whether one string is a rotation of another",
+        "link": "https://www.geeksforgeeks.org/a-program-to-check-if-strings-are-rotations-of-each-other/"
+    },
+    {
+        "number" : 6, "topic" : "String",
+        "name": "Write a Program to check whether a string is a valid shuffle of two strings or not",
+        "link": "https://www.programiz.com/java-programming/examples/check-valid-shuffle-of-strings"
+    },
+    {
+        "number" : 7, "topic" : "String",
+        "name": "Count and Say problem",
+        "link": "https://leetcode.com/problems/count-and-say/"
+    },
+    {
+        "number" : 7, "topic" : "String",
+        "name": "Write a program to find the longest Palindrome in a string.[ Longest palindromic Substring]",
+        "link": "https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0"
+    },
+    {
+        "number" : 8, "topic" : "String",
+        "name": "Find Longest Recurring Subsequence in String",
+        "link": "https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence/0"
+    },
+    {
+        "number" : 9, "topic" : "String",
+        "name": "Print all Subsequences of a string.",
+        "link": "https://www.geeksforgeeks.org/print-subsequences-string/"
+    },
+    {
+        "number" : 10, "topic" : "String",
+        "name": "Print all the permutations of the given string",
+        "link": "https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0"
+    },
+    {
+        "number" : 11, "topic" : "String",
+        "name": "Split the Binary string into two substring with equal 0\u2019s and 1\u2019s",
+        "link": "https://www.geeksforgeeks.org/split-the-binary-string-into-substrings-with-equal-number-of-0s-and-1s/"
+    },
+    {
+        "number" : 12, "topic" : "String",
+        "name": "Word Wrap Problem [VERY IMP].",
+        "link": "https://practice.geeksforgeeks.org/problems/word-wrap/0"
+    },
+    {
+        "number" : 13, "topic" : "String",
+        "name": "EDIT Distance [Very Imp]",
+        "link": "https://practice.geeksforgeeks.org/problems/edit-distance3702/1"
+    },
+    {
+        "number" : 14, "topic" : "String",
+        "name": "Find next greater number with same set of digits. [Very Very IMP]",
+        "link": "https://practice.geeksforgeeks.org/problems/next-permutation/0"
+    },
+    {
+        "number" : 15, "topic" : "String",
+        "name": "Balanced Parenthesis problem.[Imp]",
+        "link": "https://practice.geeksforgeeks.org/problems/parenthesis-checker/0"
+    },
+    {
+        "number" : 16, "topic" : "String",
+        "name": "Word break Problem[ Very Imp]",
+        "link": "https://practice.geeksforgeeks.org/problems/word-break/0"
+    },
+    {
+        "number" : 17, "topic" : "String",
+        "name": "Rabin Karp Algo",
+        "link": "https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/"
+    },
+    {
+        "number" : 18, "topic" : "String",
+        "name": "KMP Algo",
+        "link": "https://practice.geeksforgeeks.org/problems/longest-prefix-suffix2527/1"
+    },
+    {
+        "number" : 19, "topic" : "String",
+        "name": "Convert a Sentence into its equivalent mobile numeric keypad sequence.",
+        "link": "https://www.geeksforgeeks.org/convert-sentence-equivalent-mobile-numeric-keypad-sequence/"
+    },
+    {
+        "number" : 20, "topic" : "String",
+        "name": "Minimum number of bracket reversals needed to make an expression balanced.",
+        "link": "https://practice.geeksforgeeks.org/problems/count-the-reversals/0"
+    },
+    {
+        "number" : 21, "topic" : "String",
+        "name": "Count All Palindromic Subsequence in a given String.",
+        "link": "https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1"
+    },
+    {
+        "number" : 22, "topic" : "String",
+        "name": "Count of number of given string in 2D character array",
+        "link": "https://www.geeksforgeeks.org/find-count-number-given-string-present-2d-character-array/"
+    },
+    {
+        "number" : 23, "topic" : "String",
+        "name": "Search a Word in a 2D Grid of characters.",
+        "link": "https://practice.geeksforgeeks.org/problems/find-the-string-in-grid/0"
+    },
+    {
+        "number" : 24, "topic" : "String",
+        "name": "Boyer Moore Algorithm for Pattern Searching.",
+        "link": "https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/"
+    },
+    {
+        "number" : 25, "topic" : "String",
+        "name": "Converting Roman Numerals to Decimal",
+        "link": "https://practice.geeksforgeeks.org/problems/roman-number-to-integer/0"
+    },
+    {
+        "number" : 26, "topic" : "String",
+        "name": "Longest Common Prefix",
+        "link": "https://leetcode.com/problems/longest-common-prefix/"
+    },
+    {
+        "number" : 27, "topic" : "String",
+        "name": "Number of flips to make binary string alternate",
+        "link": "https://practice.geeksforgeeks.org/problems/min-number-of-flips/0"
+    },
+    {
+        "number" : 28, "topic" : "String",
+        "name": "Find the first repeated word in string.",
+        "link": "https://practice.geeksforgeeks.org/problems/second-most-repeated-string-in-a-sequence/0"
+    },
+    {
+        "number" : 29, "topic" : "String",
+        "name": "Minimum number of swaps for bracket balancing.",
+        "link": "https://practice.geeksforgeeks.org/problems/minimum-swaps-for-bracket-balancing/0"
+    },
+    {
+        "number" : 30, "topic" : "String",
+        "name": "Find the longest common subsequence between two strings.",
+        "link": "https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0"
+    },
+    {
+        "number" : 31, "topic" : "String",
+        "name": "Program to generate all possible valid IP addresses from given  string.",
+        "link": "https://www.geeksforgeeks.org/program-generate-possible-valid-ip-addresses-given-string/"
+    },
+    {
+        "number" : 32, "topic" : "String",
+        "name": "Write a program tofind the smallest window that contains all characters of string itself.",
+        "link": "https://practice.geeksforgeeks.org/problems/smallest-distant-window/0"
+    },
+    {
+        "number" : 33, "topic" : "String",
+        "name": "Rearrange characters in a string such that no two adjacent are same",
+        "link": "https://practice.geeksforgeeks.org/problems/rearrange-characters/0"
+    },
+    {
+        "number" : 34, "topic" : "String",
+        "name": "Minimum characters to be added at front to make string palindrome",
+        "link": "https://www.geeksforgeeks.org/minimum-characters-added-front-make-string-palindrome/"
+    },
+    {
+        "number" : 35, "topic" : "String",
+        "name": "Given a sequence of words, print all anagrams together",
+        "link": "https://practice.geeksforgeeks.org/problems/k-anagrams-1/0"
+    },
+    {
+        "number" : 36, "topic" : "String",
+        "name": "Find the smallest window in a string containing all characters of another string",
+        "link": "https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string/0"
+    },
+    {
+        "number" : 37, "topic" : "String",
+        "name": "Recursively remove all adjacent duplicates",
+        "link": "https://practice.geeksforgeeks.org/problems/consecutive-elements/0"
+    },
+    {
+        "number" : 38, "topic" : "String",
+        "name": "String matching where one string contains wildcard characters",
+        "link": "https://practice.geeksforgeeks.org/problems/wildcard-string-matching/0"
+    },
+    {
+        "number" : 39, "topic" : "String",
+        "name": "Function to find Number of customers who could not get a computer",
+        "link": "https://www.geeksforgeeks.org/function-to-find-number-of-customers-who-could-not-get-a-computer/"
+    },
+    {
+        "number" : 40, "topic" : "String",
+        "name": "Transform One String to Another using Minimum Number of Given Operation",
+        "link": "https://www.geeksforgeeks.org/transform-one-string-to-another-using-minimum-number-of-given-operation/"
+    },
+    {
+        "number" : 41, "topic" : "String",
+        "name": "Check if two given strings are isomorphic to each other",
+        "link": "https://practice.geeksforgeeks.org/problems/isomorphic-strings/0"
+    },
+    {
+        "number" : 42, "topic" : "String",
+        "name": "Recursively print all sentences that can be formed from list of word lists",
+        "link": "https://www.geeksforgeeks.org/recursively-print-all-sentences-that-can-be-formed-from-list-of-word-lists/"
+    }
+]

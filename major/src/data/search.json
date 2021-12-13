@@ -1,0 +1,182 @@
+[
+    {
+        "number" : 1, "topic" : "Searching & Sorting",
+        "name": "Find first and last positions of an element in a sorted array",
+        "link": "https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x/0"
+    },
+    {
+        "number" : 2, "topic" : "Searching & Sorting",
+        "name": "Find a Fixed Point (Value equal to index) in a given array",
+        "link": "https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1"
+    },
+    {
+        "number" : 3, "topic" : "Searching & Sorting",
+        "name": "Search in a rotated sorted array",
+        "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+    },
+    {
+        "number" : 4, "topic" : "Searching & Sorting",
+        "name": "square root of an integer",
+        "link": "https://practice.geeksforgeeks.org/problems/count-squares3649/1"
+    },
+    {
+        "number" : 5, "topic" : "Searching & Sorting",
+        "name": "Maximum and minimum of an array using minimum number of comparisons",
+        "link": "https://practice.geeksforgeeks.org/problems/middle-of-three2926/1"
+    },
+    {
+        "number" : 6, "topic" : "Searching & Sorting",
+        "name": "Optimum location of point to minimize total distance",
+        "link": "https://www.geeksforgeeks.org/optimum-location-point-minimize-total-distance/"
+    },
+    {
+        "number" : 7, "topic" : "Searching & Sorting",
+        "name": "Find the repeating and the missing",
+        "link": "https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1"
+    },
+    {
+        "number" : 8, "topic" : "Searching & Sorting",
+        "name": "find majority element",
+        "link": "https://practice.geeksforgeeks.org/problems/majority-element/0"
+    },
+    {
+        "number" : 9, "topic" : "Searching & Sorting",
+        "name": "Searching in an array where adjacent differ by at most k",
+        "link": "https://www.geeksforgeeks.org/searching-array-adjacent-differ-k/"
+    },
+    {
+        "number" : 10, "topic" : "Searching & Sorting",
+        "name": "find a pair with a given difference",
+        "link": "https://practice.geeksforgeeks.org/problems/find-pair-given-difference/0"
+    },
+    {
+        "number" : 11, "topic" : "Searching & Sorting",
+        "name": "find four elements that sum to a given value",
+        "link": "https://practice.geeksforgeeks.org/problems/find-all-four-sum-numbers/0"
+    },
+    {
+        "number" : 12, "topic" : "Searching & Sorting",
+        "name": "maximum sum such that no 2 elements are adjacent",
+        "link": "https://practice.geeksforgeeks.org/problems/stickler-theif/0"
+    },
+    {
+        "number" : 13, "topic" : "Searching & Sorting",
+        "name": "Count triplet with sum smaller than a given value",
+        "link": "https://practice.geeksforgeeks.org/problems/count-triplets-with-sum-smaller-than-x5549/1"
+    },
+    {
+        "number" : 14, "topic" : "Searching & Sorting",
+        "name": "merge 2 sorted arrays",
+        "link": "https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays5135/1"
+    },
+    {
+        "number" : 15, "topic" : "Searching & Sorting",
+        "name": "print all subarrays with 0 sum",
+        "link": "https://practice.geeksforgeeks.org/problems/zero-sum-subarrays/0"
+    },
+    {
+        "number" : 16, "topic" : "Searching & Sorting",
+        "name": "Product array Puzzle",
+        "link": "https://practice.geeksforgeeks.org/problems/product-array-puzzle/0"
+    },
+    {
+        "number" : 17, "topic" : "Searching & Sorting",
+        "name": "Sort array according to count of set bits",
+        "link": "https://practice.geeksforgeeks.org/problems/sort-by-set-bit-count/0"
+    },
+    {
+        "number" : 18, "topic" : "Searching & Sorting",
+        "name": "minimum no. of swaps required to sort the array",
+        "link": "https://practice.geeksforgeeks.org/problems/minimum-swaps/1"
+    },
+    {
+        "number" : 19, "topic" : "Searching & Sorting",
+        "name": "Bishu and Soldiers",
+        "link": "https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/bishu-and-soldiers/"
+    },
+    {
+        "number" : 20, "topic" : "Searching & Sorting",
+        "name": "Rasta and Kheshtak",
+        "link": "https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/rasta-and-kheshtak/"
+    },
+    {
+        "number" : 21, "topic" : "Searching & Sorting",
+        "name": "Kth smallest number again",
+        "link": "https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/kth-smallest-number-again-2/"
+    },
+    {
+        "number" : 22, "topic" : "Searching & Sorting",
+        "name": "Find pivot element in a sorted array",
+        "link": "http://theoryofprogramming.com/2017/12/16/find-pivot-element-sorted-rotated-array/"
+    },
+    {
+        "number" : 23, "topic" : "Searching & Sorting",
+        "name": "K-th Element of Two Sorted Arrays",
+        "link": "https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array/0"
+    },
+    {
+        "number" : 24, "topic" : "Searching & Sorting",
+        "name": "Aggressive cows",
+        "link": "https://www.spoj.com/problems/AGGRCOW/"
+    },
+    {
+        "number" : 25, "topic" : "Searching & Sorting",
+        "name": "Book Allocation Problem",
+        "link": "https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0"
+    },
+    {
+        "number" : 26, "topic" : "Searching & Sorting",
+        "name": "EKOSPOJ:",
+        "link": "https://www.spoj.com/problems/EKO/"
+    },
+    {
+        "number" : 27, "topic" : "Searching & Sorting",
+        "name": "Job Scheduling Algo",
+        "link": "https://www.geeksforgeeks.org/weighted-job-scheduling-log-n-time/"
+    },
+    {
+        "number" : 28, "topic" : "Searching & Sorting",
+        "name": "Missing Number in AP",
+        "link": "https://practice.geeksforgeeks.org/problems/arithmetic-number/0"
+    },
+    {
+        "number" : 29, "topic" : "Searching & Sorting",
+        "name": "Smallest number with atleastn trailing zeroes infactorial",
+        "link": "https://practice.geeksforgeeks.org/problems/smallest-factorial-number5929/1"
+    },
+    {
+        "number" : 30, "topic" : "Searching & Sorting",
+        "name": "Painters Partition Problem:",
+        "link": "https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0"
+    },
+    {
+        "number" : 31, "topic" : "Searching & Sorting",
+        "name": "ROTI-Prata SPOJ",
+        "link": "https://www.spoj.com/problems/PRATA/"
+    },
+    {
+        "number" : 32, "topic" : "Searching & Sorting",
+        "name": "DoubleHelix SPOJ",
+        "link": "https://www.spoj.com/problems/ANARC05B/"
+    },
+    {
+        "number" : 33, "topic" : "Searching & Sorting",
+        "name": "Subset Sums",
+        "link": "https://www.spoj.com/problems/SUBSUMS/"
+    },
+    {
+        "number" : 34, "topic" : "Searching & Sorting",
+        "name": "Findthe inversion count",
+        "link": "https://practice.geeksforgeeks.org/problems/inversion-of-array/0"
+    },
+    {
+        "number" : 35, "topic" : "Searching & Sorting",
+        "name": "Implement Merge-sort in-place",
+        "link": "https://www.geeksforgeeks.org/in-place-merge-sort/"
+    },
+    {
+        "number" : 36, "topic" : "Searching & Sorting",
+        "name": "Partitioning and Sorting Arrays with Many Repeated Entries",
+        "link": "https://www.baeldung.com/java-sorting-arrays-with-repeated-entries"
+    }
+]
