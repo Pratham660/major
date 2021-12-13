@@ -1,14 +1,16 @@
 import React,{Component} from "react"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import Myform from "./post_doubt.jsx"
 import Login from "./login.jsx"
 import Register from "./register"
 import Smart_practice from "./smart_practice"
 import "./css/App.css";
 import interview_pre from "./interview_pre";
-import Discuss from "./discuss";
+import Discuss from "./blog";
 import Ipage1 from "./ipage1";
 import Ipage2 from "./ipage2";
 import HeroSection from "./herohome";
+import Home from "./herohome2";
 import Navbar from "./routes/Navbar";
 import Footer from "./routes/Footer";
 import NotFoundPage from './NotFoundPage.jsx';
@@ -35,18 +37,19 @@ class App extends Component  {
   render(){
   return (
     <div>
-      <Navbar></Navbar>
-      <p>{this.state.data}</p>
+      {/* <Navbar></Navbar> */}
       <Router>
         <Switch>  
         <Route path="/interview" exact component={interview_pre} />
+        <Route path="/post" exact component={Myform} />
+        <Route path="/discuss" exact component={Discuss} />
         <Route path="/ipage1" exact component={Ipage1} />
         <Route path="/ipage2" exact component={Ipage2} />
         <Route path="/login" exact component={Login} />
-        <Route path="/discuss" exact component={Discuss} />
         <Route path="/register" exact component={Register} />
         <Route path="/smartpractice" exact component={Smart_practice} />
         <Route path="/" exact component={HeroSection} />
+        <Route path="/home" exact component={Home} />
         <Route component={NotFoundPage} />
         </Switch>
       </Router>

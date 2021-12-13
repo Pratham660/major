@@ -2,9 +2,11 @@ import React from "react";
 import "./css/404.css";
 import img404 from "./images/img404.png";
 import { Link } from "react-router-dom";
-
+import Navbar from "./routes/Navbar";
 export default function NotFoundPage() {
   return (
+    <>
+    <Navbar></Navbar>
     <div className="header-hero">
       <div className="container" style={{ marginTop: "0px" }}>
         <img
@@ -58,5 +60,6 @@ export default function NotFoundPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

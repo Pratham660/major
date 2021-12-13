@@ -1,12 +1,13 @@
 import "./css/interview_pre.css";
 import React from "react";
 import Data from "../data/interview_problemset.json";
+import Navbar from "./routes/Navbar";
 
 const interview_pre = () => {
   const DisplayData = Data.map((problem) => {
     return (
       <tr>
-        {/* <td>0</td> */}
+        <td>0</td>
         <td>{problem.topic}</td>
         <td>{problem.name}</td>
         <td>
@@ -23,10 +24,9 @@ const interview_pre = () => {
       </tr>
     );
   });
-  console.log(DisplayData);
-  var x=90
   return (
     <div>
+      <Navbar></Navbar>
       <table class="table table-striped">
         <thead>
           <tr>

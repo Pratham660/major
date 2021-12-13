@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Chart from "react-google-charts";
 import "./css/smart_practice.css";
-
+import Navbar from "./routes/Navbar";
 function Smart_practice() {
   const [handle, sethandle] = useState("");
   const [statusinfo, setstatusinfo] = useState({
@@ -367,6 +367,8 @@ function Smart_practice() {
   };
 
   return (
+    <>
+    <Navbar></Navbar>
     <div className="align">
       <div>
         <h3 style={{ textAlign: "center" }}>📊 Enter CodeForces Username</h3>
@@ -543,6 +545,7 @@ function Smart_practice() {
         ) : null}
       </div>
     </div>
+    </>
   );
 }
 

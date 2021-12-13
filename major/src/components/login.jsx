@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import Navbar2 from "./routes/Navbar2";
 const reactData = [{name:' Tom',password:'test123'}];
 class MyForm extends React.Component {
   constructor(props) {
@@ -26,8 +27,14 @@ class MyForm extends React.Component {
       console.log(res.data);
       for(var user of res.data)
       {
-        if(book.name == user.name)
-        window.alert("login success");
+        if(book.name == user.name){
+        localStorage.setItem('curruser', user.name);
+        let cnf = window.confirm("login success");
+        if(cnf)
+        {
+          window.location.href='http://localhost:3000/home';
+        }
+        }
     
       }
     })
@@ -38,6 +45,8 @@ class MyForm extends React.Component {
  
   render() {
     return (
+      <>
+      <Navbar2></Navbar2>
       <form onSubmit={this.handleSubmit}>
         <h1>LOGIN</h1>
         <label>
@@ -48,6 +57,7 @@ class MyForm extends React.Component {
         </label>
         <input type="submit" value="Submit" />
       </form>
+      </>
     );
   }
 }
