@@ -71,6 +71,7 @@
 // export default MyForm;
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import Navbar from "./routes/Navbar";
 import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardSubTitle, MDBCardText, MDBCardLink } from 'mdb-react-ui-kit';
 export default function Parent(){
 const [repo,setRepo]=useState([]);
@@ -98,6 +99,7 @@ const mystyle2 = {
   };
 return (
     <div>
+      <Navbar></Navbar>
         <div >
         <a className="btn" href="http://localhost:3000/post" style={{"margin-left" : "30px"}}><input className="btn" type="button" style={mystyle2} value="Post a doubt"/></a>
         </div>

@@ -1,6 +1,7 @@
 import "./css/interview_pre.css";
 import React from "react";
 import Data from "../data/interview_problemset.json";
+import Navbar from "./routes/Navbar";
 
 const interview_pre = () => {
     const DisplayData = Data.map(
@@ -19,6 +20,7 @@ const interview_pre = () => {
     )
     return (
         <div>
+            <Navbar></Navbar>
             <table class="table table-striped">
                 <thead>
                     <tr>

@@ -9,12 +9,12 @@ import pracf from "./images/practicefeature.png";
 import pratham from "./images/pratham.jpg";
 import nakul from "./images/nakul.jpg";
 import keshav from "./images/keshav.jpeg";
-import Navbar2 from "./routes/Navbar2";
+import Navbar from "./routes/Navbar";
 
 const HeroSection = () => {
   return (
     <>
-    <Navbar2></Navbar2>
+    <Navbar></Navbar>
     <div className="bgimg">
       <div className="header-hero">
         <div className="container" style={{marginTop:"0px"}}>
@@ -62,7 +62,7 @@ const HeroSection = () => {
                 <br />
                 <br />
                 <button
-                  className="btnn btn-primary round text-white pl-5 pr-5 pb-4 pt-4 mt-3"
+                  className="btnn btn-primary round text-white pl-5 pr-5 pb-4 pt-4 mt-3 "
                   data-toggle="modal"
                   data-target="#exampleModal"
                   data-whatever="@getbootstrap"

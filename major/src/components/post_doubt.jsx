@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import Navbar from "./routes/Navbar";
 class MyForm extends React.Component {
     constructor(props) {
         super(props);
@@ -73,6 +74,7 @@ class MyForm extends React.Component {
           };
         return (
             <div>
+                <Navbar></Navbar>
                 <form onSubmit={this.handleSubmit}>
                     <h1 style={{margin:"25px"}}>What's on your mind today ??</h1>
                     <br></br>

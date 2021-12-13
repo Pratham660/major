@@ -10,6 +10,7 @@ import Discuss from "./blog";
 import Ipage1 from "./ipage1";
 import Ipage2 from "./ipage2";
 import HeroSection from "./herohome";
+import Home from "./herohome2";
 import Navbar from "./routes/Navbar";
 import Footer from "./routes/Footer";
 import NotFoundPage from './NotFoundPage.jsx';
@@ -36,8 +37,7 @@ class App extends Component  {
   render(){
   return (
     <div>
-      <Navbar></Navbar>
-      <p>{this.state.data}</p>
+      {/* <Navbar></Navbar> */}
       <Router>
         <Switch>  
         <Route path="/interview" exact component={interview_pre} />
@@ -49,6 +49,7 @@ class App extends Component  {
         <Route path="/register" exact component={Register} />
         <Route path="/smartpractice" exact component={Smart_practice} />
         <Route path="/" exact component={HeroSection} />
+        <Route path="/home" exact component={Home} />
         <Route component={NotFoundPage} />
         </Switch>
       </Router>

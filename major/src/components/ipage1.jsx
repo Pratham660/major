@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/ipage1.css";
 import banner from "./images/banner.svg";
-
+import Navbar from "./routes/Navbar";
 
 import { Link } from "react-router-dom";
 
@@ -9,6 +9,7 @@ export default function Ipage1() {
 
   return (
     <>
+    <Navbar></Navbar>
       <div class="Jumbotron" class="text-center" style={{ marginTop: "50px", backgroundColor: "yellow" }}>
         <h1><a href="http://localhost:3000/ipage2">Choose a Topic</a></h1>
       </div>

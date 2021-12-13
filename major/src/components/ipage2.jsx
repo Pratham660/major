@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/ipage2.css";
 
-
+import Navbar from "./routes/Navbar";
 
 // const MoreDeets = () => {
 
@@ -100,7 +100,7 @@ import "./css/ipage2.css";
   export default function renderCard() {
     return (
       <>
-
+      <Navbar></Navbar>
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
