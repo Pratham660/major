@@ -1,0 +1,177 @@
+[
+    {
+        "number" : 1, "topic" : "Greedy",
+        "name": "Activity Selection Problem",
+        "link": "https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0"
+    },
+    {
+        "number" : 2, "topic" : "Greedy",
+        "name": "Job SequencingProblem",
+        "link": "https://practice.geeksforgeeks.org/problems/job-sequencing-problem/0"
+    },
+    {
+        "number" : 3, "topic" : "Greedy",
+        "name": "Huffman Coding",
+        "link": "https://practice.geeksforgeeks.org/problems/huffman-encoding/0"
+    },
+    {
+        "number" : 4, "topic" : "Greedy",
+        "name": "Water Connection Problem",
+        "link": "https://practice.geeksforgeeks.org/problems/water-connection-problem/0"
+    },
+    {
+        "number" : 5, "topic" : "Greedy",
+        "name": "Fractional Knapsack Problem",
+        "link": "https://practice.geeksforgeeks.org/problems/fractional-knapsack/0"
+    },
+    {
+        "number" : 6, "topic" : "Greedy",
+        "name": "Greedy Algorithm to find Minimum number of Coins",
+        "link": "https://practice.geeksforgeeks.org/problems/coin-piles/0"
+    },
+    {
+        "number" : 7, "topic" : "Greedy",
+        "name": "Maximum trains for which stoppage can be provided",
+        "link": "https://www.geeksforgeeks.org/maximum-trains-stoppage-can-provided/"
+    },
+    {
+        "number" : 8, "topic" : "Greedy",
+        "name": "Minimum Platforms Problem",
+        "link": "https://practice.geeksforgeeks.org/problems/minimum-platforms/0"
+    },
+    {
+        "number" : 9, "topic" : "Greedy",
+        "name": "Buy Maximum Stocks if i stocks can be bought on i-th day",
+        "link": "https://www.geeksforgeeks.org/buy-maximum-stocks-stocks-can-bought-th-day/"
+    },
+    {
+        "number" : 10, "topic" : "Greedy",
+        "name": "Find the minimum and maximum amount to buy all N candies",
+        "link": "https://practice.geeksforgeeks.org/problems/shop-in-candy-store/0"
+    },
+    {
+        "number" : 11, "topic" : "Greedy",
+        "name": "Minimize Cash Flow among a given set of friends who have borrowed money from each other",
+        "link": "https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/"
+    },
+    {
+        "number" : 12, "topic" : "Greedy",
+        "name": "Minimum Cost to cut a board into squares",
+        "link": "https://www.geeksforgeeks.org/minimum-cost-cut-board-squares/"
+    },
+    {
+        "number" : 13, "topic" : "Greedy",
+        "name": "Check if it is possible to survive on Island",
+        "link": "https://www.geeksforgeeks.org/survival/"
+    },
+    {
+        "number" : 14, "topic" : "Greedy",
+        "name": "Find maximum meetings in one room",
+        "link": "https://www.geeksforgeeks.org/find-maximum-meetings-in-one-room/"
+    },
+    {
+        "number" : 15, "topic" : "Greedy",
+        "name": "Maximum product subset of an array",
+        "link": "https://www.geeksforgeeks.org/maximum-product-subset-array/"
+    },
+    {
+        "number" : 16, "topic" : "Greedy",
+        "name": "Maximize array sum after K negations",
+        "link": "https://practice.geeksforgeeks.org/problems/maximize-sum-after-k-negations/0"
+    },
+    {
+        "number" : 17, "topic" : "Greedy",
+        "name": "Maximize the sum of arr[i]*i",
+        "link": "https://practice.geeksforgeeks.org/problems/maximize-arrii-of-an-array/0"
+    },
+    {
+        "number" : 18, "topic" : "Greedy",
+        "name": "Maximum sum of absolute difference of an array",
+        "link": "https://www.geeksforgeeks.org/maximum-sum-absolute-difference-array/"
+    },
+    {
+        "number" : 19, "topic" : "Greedy",
+        "name": "Maximize sum of consecutive differences in a circular array",
+        "link": "https://practice.geeksforgeeks.org/problems/swap-and-maximize/0"
+    },
+    {
+        "number" : 20, "topic" : "Greedy",
+        "name": "Minimum sum of absolute difference of pairs of two arrays",
+        "link": "https://www.geeksforgeeks.org/minimum-sum-absolute-difference-pairs-two-arrays/"
+    },
+    {
+        "number" : 21, "topic" : "Greedy",
+        "name": "Program for Shortest Job First (or SJF) CPU Scheduling",
+        "link": "https://www.geeksforgeeks.org/program-for-shortest-job-first-or-sjf-cpu-scheduling-set-1-non-preemptive/"
+    },
+    {
+        "number" : 22, "topic" : "Greedy",
+        "name": "Program for Least Recently Used (LRU) Page Replacement algorithm",
+        "link": "https://practice.geeksforgeeks.org/problems/page-faults-in-lru/0"
+    },
+    {
+        "number" : 23, "topic" : "Greedy",
+        "name": "Smallest subset with sum greater than all other elements",
+        "link": "https://www.geeksforgeeks.org/smallest-subset-sum-greater-elements/"
+    },
+    {
+        "number" : 24, "topic" : "Greedy",
+        "name": "Chocolate Distribution Problem",
+        "link": "https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem/0"
+    },
+    {
+        "number" : 25, "topic" : "Greedy",
+        "name": "DEFKIN -Defense of a Kingdom",
+        "link": "https://www.spoj.com/problems/DEFKIN/"
+    },
+    {
+        "number" : 26, "topic" : "Greedy",
+        "name": "DIEHARD -DIE HARD",
+        "link": "https://www.spoj.com/problems/DIEHARD/"
+    },
+    {
+        "number" : 27, "topic" : "Greedy",
+        "name": "GERGOVIA -Wine trading in Gergovia",
+        "link": "https://www.spoj.com/problems/GERGOVIA/"
+    },
+    {
+        "number" : 28, "topic" : "Greedy",
+        "name": "Picking Up Chicks",
+        "link": "https://www.spoj.com/problems/GCJ101BB/"
+    },
+    {
+        "number" : 29, "topic" : "Greedy",
+        "name": "CHOCOLA \u2013Chocolate",
+        "link": "https://www.spoj.com/problems/CHOCOLA/"
+    },
+    {
+        "number" : 30, "topic" : "Greedy",
+        "name": "ARRANGE -Arranging Amplifiers",
+        "link": "https://www.spoj.com/problems/ARRANGE/"
+    },
+    {
+        "number" : 31, "topic" : "Greedy",
+        "name": "K Centers Problem",
+        "link": "https://www.geeksforgeeks.org/k-centers-problem-set-1-greedy-approximate-algorithm/"
+    },
+    {
+        "number" : 32, "topic" : "Greedy",
+        "name": "Minimum Cost of ropes",
+        "link": "https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes/0"
+    },
+    {
+        "number" : 33, "topic" : "Greedy",
+        "name": "Find smallest number with given number of digits and sum of digits",
+        "link": "https://practice.geeksforgeeks.org/problems/smallest-number5829/1"
+    },
+    {
+        "number" : 34, "topic" : "Greedy",
+        "name": "Rearrange characters in a string such that no two adjacent are same",
+        "link": "https://practice.geeksforgeeks.org/problems/rearrange-characters/0"
+    },
+    {
+        "number" : 35, "topic" : "Greedy",
+        "name": "Find maximum sum possible equal sum of three stacks",
+        "link": "https://www.geeksforgeeks.org/find-maximum-sum-possible-equal-sum-three-stacks/"
+    }
+]

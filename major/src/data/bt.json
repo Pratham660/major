@@ -1,0 +1,97 @@
+[
+    {
+        "number" : 36, "topic" : "BackTracking",
+        "name": "Rat in a maze Problem",
+        "link": "https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1"
+    },
+    {
+        "number" : 1, "topic" : "BackTracking",
+        "name": "Printing all solutions in N-Queen Problem",
+        "link": "https://www.geeksforgeeks.org/printing-solutions-n-queen-problem/"
+    },
+    {
+        "number" : 2, "topic" : "BackTracking",
+        "name": "Word Break Problem using Backtracking",
+        "link": "https://practice.geeksforgeeks.org/problems/word-break-part-2/0"
+    },
+    {
+        "number" : 3, "topic" : "BackTracking",
+        "name": "Remove Invalid Parentheses",
+        "link": "https://leetcode.com/problems/remove-invalid-parentheses/"
+    },
+    {
+        "number" : 4, "topic" : "BackTracking",
+        "name": "Sudoku Solver",
+        "link": "https://practice.geeksforgeeks.org/problems/solve-the-sudoku/0"
+    },
+    {
+        "number" : 5, "topic" : "BackTracking",
+        "name": "m Coloring Problem",
+        "link": "https://practice.geeksforgeeks.org/problems/m-coloring-problem/0"
+    },
+    {
+        "number" : 6, "topic" : "BackTracking",
+        "name": "Print all palindromic partitions of a string",
+        "link": "https://www.geeksforgeeks.org/given-a-string-print-all-possible-palindromic-partition/"
+    },
+    {
+        "number" : 7, "topic" : "BackTracking",
+        "name": "Subset Sum Problem",
+        "link": "https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1"
+    },
+    {
+        "number" : 8, "topic" : "BackTracking",
+        "name": "The Knight\u2019s tour problem",
+        "link": "https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/"
+    },
+    {
+        "number" : 9, "topic" : "BackTracking",
+        "name": "Tug of War",
+        "link": "https://www.geeksforgeeks.org/tug-of-war/"
+    },
+    {
+        "number" : 10, "topic" : "BackTracking",
+        "name": "Find shortest safe route in a path with landmines",
+        "link": "https://www.geeksforgeeks.org/find-shortest-safe-route-in-a-path-with-landmines/"
+    },
+    {
+        "number" : 11, "topic" : "BackTracking",
+        "name": "Combinational Sum",
+        "link": "https://practice.geeksforgeeks.org/problems/combination-sum/0"
+    },
+    {
+        "number" : 12, "topic" : "BackTracking",
+        "name": "Find Maximum number possible by doing at-most K swaps",
+        "link": "https://practice.geeksforgeeks.org/problems/largest-number-in-k-swaps/0"
+    },
+    {
+        "number" : 13, "topic" : "BackTracking",
+        "name": "Print all permutations of a string ",
+        "link": "https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0"
+    },
+    {
+        "number" : 14, "topic" : "BackTracking",
+        "name": "Find if there is a path of more than k length from a source",
+        "link": "https://www.geeksforgeeks.org/find-if-there-is-a-path-of-more-than-k-length-from-a-source/"
+    },
+    {
+        "number" : 15, "topic" : "BackTracking",
+        "name": "Longest Possible Route in a Matrix with Hurdles",
+        "link": "https://www.geeksforgeeks.org/longest-possible-route-in-a-matrix-with-hurdles/"
+    },
+    {
+        "number" : 16, "topic" : "BackTracking",
+        "name": "Print all possible paths from top left to bottom right of a mXn matrix",
+        "link": "https://www.geeksforgeeks.org/print-all-possible-paths-from-top-left-to-bottom-right-of-a-mxn-matrix/"
+    },
+    {
+        "number" : 17, "topic" : "BackTracking",
+        "name": "Partition of a set intoK subsets with equal sum",
+        "link": "https://practice.geeksforgeeks.org/problems/partition-array-to-k-subsets/1"
+    },
+    {
+        "number" : 18, "topic" : "BackTracking",
+        "name": "Find the K-th Permutation Sequence of first N natural numbers",
+        "link": "https://www.geeksforgeeks.org/find-the-k-th-permutation-sequence-of-first-n-natural-numbers/"
+    }
+]

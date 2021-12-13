@@ -22,14 +22,14 @@ export default function Ipage1() {
 
       <div class="text-center" style={{ marginTop: "100px" }} >
         <p>What makes us an awesome</p>
-        <p>Resource for tech interview preparation</p>
-        <p>500+ problems for practice</p>
+        <p>resource for tech interview preparation</p>
+        <p>450+ problems for practice</p>
 
       </div>
-      <div class="text-center" style={{ marginTop: "100px", marginBottom: "100px" }} >
+      {/* <div class="text-center" style={{ marginTop: "100px", marginBottom: "100px" }} >
         <h1>Problems Solved Count : 96/450</h1>
 
-      </div>
+      </div> */}
 
 
 

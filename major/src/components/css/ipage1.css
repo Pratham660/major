@@ -2,11 +2,21 @@
   .abc {
     margin-top: 50px;
     margin-bottom: 300px;
-    widht: 100%;
+    width: 100%;
     }
+
     #bannerimage {
       width: 1250px;
       background-image: url("../images/banner.jpeg");
+      height: 300px;
+      background-color: rgb(252, 252, 252);
+      background-position: center;
+      margin :auto;
+    }
+    
+    #bannerimage2 {
+      width: 1250px;
+      background-image: url("../images/videobanner.jpg");
       height: 300px;
       background-color: rgb(252, 252, 252);
       background-position: center;
