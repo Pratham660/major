@@ -3,20 +3,22 @@ import axios from 'axios';
 class MyForm extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { doubt: '', };
+        this.state = { doubt: '',};
     }
 
     handleChange = (event) => {
         this.setState({ [event.target.name]: event.target.value });
     };
-
     handleSubmit = (event) => {
         event.preventDefault();
         //alert('A form was submitted: ' + this.state);
-        const { doubt } = this.state;
+        this.setState({ ['postedby']: localStorage.getItem('curruser') });
+        const { doubt} = this.state;
+        const postedby =localStorage.getItem('curruser')
 
         const book = {
-            doubt
+            doubt,
+            postedby
         };
         console.log(book);
         axios.post('http://localhost:5000/api/blogs/', book)
@@ -50,17 +52,35 @@ class MyForm extends React.Component {
     //};
 
     render() {  
+        const mystyle = {
+            // width: "90vw",
+            backgroundColor: "#e6f5ff",
+            padding: "10px",
+            fontFamily: "Arial",
+            fontSize: "15px",
+            margin: "2vw"
+            // height: "250px"
+          };
+          const mystyle2 = {
+            width: "70px",
+            backgroundColor: "#e6f5ff",
+            padding: "10px",
+            fontFamily: "Arial",
+            fontSize: "15px",
+            marginLeft: "25px",
+            marginBottom: "25px",
+            height: "50px"
+          };
         return (
             <div>
                 <form onSubmit={this.handleSubmit}>
-                    <h1>What's on your mind today ??</h1>
+                    <h1 style={{margin:"25px"}}>What's on your mind today ??</h1>
                     <br></br>
-                    <label>
-                        POST YOUR DOUBT HERE :
-                        <br></br>
-                        <input type="text" value={this.state.value} name="doubt" onChange={this.handleChange} />
-                    </label>
-                    <input type="submit" value="Submit" />
+                   
+                        <textarea type="text" rows="6" cols="100" value={this.state.value} name="doubt" onChange={this.handleChange} style={mystyle} />
+                  
+                    <br></br>
+                    <input type="submit" value="POST"  style={mystyle2} />
                 </form>
                 <div id='root1'></div>
             </div>

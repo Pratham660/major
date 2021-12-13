@@ -57,7 +57,7 @@ const User = db.define('users', {
     allowNull:false
   }
 })
-const Blog = db.define('blogs', {
+const Blog = db.define('blogs3', {
   id: {
     type: Sequelize.DataTypes.INTEGER,
     primaryKey: true,
@@ -67,6 +67,11 @@ const Blog = db.define('blogs', {
     type: Sequelize.DataTypes.STRING(30),
     unique: true,
     allowNull: false
+  },
+  postedby: {
+    type: Sequelize.DataTypes.STRING(30),
+    default: "unknown user..",
+    allowNull: true
   }
 })
 db.sync()
