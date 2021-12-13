@@ -1,3 +1,16 @@
+.parent {
+  border: 0px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  border: 0px solid red;
+  padding: 0rem 0rem;
+  vertical-align: middle;
+}
+
 /* index.css */
 body {
     margin: 0;

@@ -37,23 +37,23 @@ function Smart_practice() {
     status: "OK",
     result: [
       {
-        lastName: "Korotkevich",
-        country: "Belarus",
-        lastOnlineTimeSeconds: 1637767633,
-        city: "Gomel",
-        rating: 3797,
-        friendOfCount: 38407,
+        lastName: "",
+        country: "",
+        lastOnlineTimeSeconds: 3,
+        city: "",
+        rating: 7,
+        friendOfCount: 7,
         titlePhoto: "https://userpic.codeforces.org/no-title.jpg",
-        handle: "tourist",
+        handle: "",
         avatar:
           "https://userpic.codeforces.org/422/avatar/2b5dbe87f0d859a2.jpg",
-        firstName: "Gennady",
-        contribution: 176,
-        organization: "ITMO University",
-        rank: "legendary grandmaster",
+        firstName: "",
+        contribution: 1,
+        organization: "ITMO",
+        rank: "master",
         maxRating: 3822,
-        registrationTimeSeconds: 1265987288,
-        maxRank: "legend",
+        registrationTimeSeconds: 8,
+        maxRank: "",
       },
     ],
   });
@@ -368,7 +368,9 @@ function Smart_practice() {
 
   return (
     <div className="align">
-     <div><h3 style={{ textAlign: "center" }}>📊 Enter CodeForces Username</h3></div> 
+      <div>
+        <h3 style={{ textAlign: "center" }}>📊 Enter CodeForces Username</h3>
+      </div>
       <form onSubmit={handleSubmit}>
         <div className="grid-container">
           <div className="grid-child">
@@ -414,38 +416,6 @@ function Smart_practice() {
       <br />
       <br />
       <br />
-      {/* Loading CSS */}
-      <div class="balls">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <br />
-      {/* 500 SUBMISSIONS  */}
-      {submitting ? (
-        <Chart
-          width={"1000px"}
-          height={"500px"}
-          chartType="PieChart"
-          loader={<div>Loading Chart</div>}
-          data={[
-            ["Verdict", "Count"],
-            ["AC", ac],
-            ["Partial Correct", part],
-            ["WA", wa],
-            ["TLE", tle],
-            ["RunTime Err", rte],
-            ["Mem Lim Exd", mle],
-            ["Other", other],
-          ]}
-          options={{
-            is3D: true,
-            title: "Verdicts On Last 500 Submissions",
-            sliceVisibilityThreshold: 0.001,
-          }}
-          rootProps={{ "data-testid": "7" }}
-        />
-      ) : null}
 
       {/* Loading CSS */}
       <div class="balls">
@@ -453,78 +423,122 @@ function Smart_practice() {
         <div></div>
         <div></div>
       </div>
-      <br />
-      <div>
+      {/* <br /> */}
+
+      <div class="parent">
         
-        {/* CATEGORIES OF SUBMISSIONS 
+        <div class="child">
+          {/* CATEGORIES OF SUBMISSIONS 
          greedy , graphs, math, dfs and similar , dp , divide and conquer , 
         binary search , strings , trees , two pointers */}
-        {submitting ? (
-          <Chart
-            width={"1000px"}
-            height={"600px"}
-            chartType="PieChart"
-            loader={<div>Loading Chart</div>}
-            data={[
-              ["Category", "Count"],
-              ["DP", dp],
-              ["Greedy", greedy],
-              ["Divide & Conquer", dac],
-              ["Two Pointers", twoptr],
-              ["Math", math],
-              ["DFS & Similar", dfs],
-              ["Trees", trees],
-              ["Strings", strings],
-              ["Graph", graphs],
-              ["Others", others],
-            ]}
-            options={{
-              // is3D: true,
-              pieHole: 0.4,
-              title: "Categories Of Solved Problems  ✔️✨",
-              sliceVisibilityThreshold: 0.001,
-            }}
-            rootProps={{ "data-testid": "7" }}
-          />
-        ) : null}
+          {submitting ? (
+            <Chart
+              width={"600px"}
+              height={"450px"}
+              chartType="PieChart"
+              loader={<div>Loading Chart</div>}
+              data={[
+                ["Category", "Count"],
+                ["DP", dp],
+                ["Greedy", greedy],
+                ["Divide & Conquer", dac],
+                ["Two Pointers", twoptr],
+                ["Math", math],
+                ["DFS & Similar", dfs],
+                ["Trees", trees],
+                ["Strings", strings],
+                ["Graph", graphs],
+                ["Others", others],
+              ]}
+              options={{
+                // is3D: true,
+                pieHole: 0.4,
+                title: "Categories Of Solved Problems  ✔️✨",
+                sliceVisibilityThreshold: 0.001,
+              }}
+              rootProps={{ "data-testid": "7" }}
+            />
+          ) : null}
+        </div>
+        <div class="child">
+          {/*  CATEGORIES OF WRONG SUBMISSIONS 
+           greedy , graphs, math, dfs and similar , dp , divide and conquer , 
+          binary search , strings , trees , two pointers */}
+          {submitting ? (
+            <Chart
+              width={"600px"}
+              height={"450px"}
+              chartType="PieChart"
+              loader={<div>Loading Chart</div>}
+              data={[
+                ["Category", "Count"],
+                ["DP", wdp],
+                ["Greedy", wgreedy],
+                ["Divide & Conquer", wdac],
+                ["Two Pointers", wtwoptr],
+                ["Math", wmath],
+                ["DFS & Similar", wdfs],
+                ["Trees", wtrees],
+                ["Strings", wstrings],
+                ["Graph", wgraphs],
+                ["Others", wothers],
+              ]}
+              options={{
+                is3D: true,
+                pieHole: 0.4,
+                title: "Categories Of Wrong Submissions  ❌",
+                sliceVisibilityThreshold: 0.001,
+              }}
+              rootProps={{ "data-testid": "7" }}
+            />
+          ) : null}
+        </div>
       </div>
+
       {/* Loading CSS */}
       <div class="balls">
         <div></div>
         <div></div>
         <div></div>
       </div>
-      <br />
+      {/* <br /> */}
       <div>
-        {/*  CATEGORIES OF WRONG SUBMISSIONS 
-           greedy , graphs, math, dfs and similar , dp , divide and conquer , 
-          binary search , strings , trees , two pointers */}
+        {/* 500 SUBMISSIONS  */}
         {submitting ? (
           <Chart
-            width={"1000px"}
-            height={"600px"}
-            chartType="PieChart"
+            width={"600px"}
+            height={"450px"}
+            chartType="BarChart"
             loader={<div>Loading Chart</div>}
             data={[
-              ["Category", "Count"],
-              ["DP", wdp],
-              ["Greedy", wgreedy],
-              ["Divide & Conquer", wdac],
-              ["Two Pointers", wtwoptr],
-              ["Math", wmath],
-              ["DFS & Similar", wdfs],
-              ["Trees", wtrees],
-              ["Strings", wstrings],
-              ["Graph", wgraphs],
-              ["Others", wothers],
+              [
+                "Verdict",
+                "Count",
+                { role: "style" },
+                {
+                  sourceColumn: 0,
+                  role: "annotation",
+                  type: "string",
+                  calc: "stringify",
+                },
+              ],
+              ["AC", ac, "#109618", null],
+              ["WA", wa, "#DC3912", null],
+              ["Partial Correct", part, "#ff9900", null],
+              ["TLE", tle, "#990099", null],
+              ["RunTime Err", rte, "#66aa00", null],
+              ["Mem Lim Exd", mle, "gold", null],
+              ["Other", other, "#316395", null],
             ]}
             options={{
-              is3D: true,
-              pieHole: 0.4,
-              title: "Categories Of Wrong Submissions  ❌",
-              sliceVisibilityThreshold: 0.001,
+              title: "Verdicts on Last 500 Submissions",
+              width: 600,
+              height: 450,
+              bar: { groupWidth: "95%" },
+              legend: { position: "none" },
             }}
-            rootProps={{ "data-testid": "7" }}
+            // For tests
+            rootProps={{ "data-testid": "6" }}
           />
         ) : null}
       </div>
