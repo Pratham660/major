@@ -43,9 +43,9 @@ export default function Footer() {
                 <ul>
                   <li>About Us</li>
                   <li>Contact Us</li>
-                  <li>About Us</li>
-                  <li>Contact Us</li>
-                  <li>About Us</li>
+                  <li>Discuss</li>
+                  <li>Interview Prep</li>
+                  <li>Careers</li>
                   <li>Contact Us</li>
                 </ul>
               </div>

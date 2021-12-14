@@ -24,10 +24,10 @@ class MyForm extends React.Component {
         console.log(book);
         axios.post('http://localhost:5000/api/blogs/', book)
             .then(() => {
-                window.alert("post created successfully")
+                let cnf = window.confirm("post created successfully");
                 // console.log(cnf);
-                // if (cnf)
-                //   window.location.href = "/login";
+                if (cnf)
+                  window.location.href = "/discuss";
             })
             .catch(err => {
                 console.error(err);
