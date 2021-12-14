@@ -61,6 +61,7 @@ const HeroSection = () => {
                 </p>
                 <br />
                 <br />
+                <a href="/login">
                 <button
                   className="btnn btn-primary round text-white pl-5 pr-5 pb-4 pt-4 mt-3"
                   data-toggle="modal"
@@ -70,6 +71,8 @@ const HeroSection = () => {
                 >
                   Get Started
                 </button>
+                </a>
+                
               </div>
             </div>
           </div>
