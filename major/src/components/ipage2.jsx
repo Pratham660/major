@@ -6,6 +6,8 @@ import Navbar from "./routes/Navbar";
     return (
       <>
       <Navbar></Navbar>
+      <br></br>
+      <br></br>
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
@@ -384,6 +386,8 @@ import Navbar from "./routes/Navbar";
           </div>
           
         </div>
+        <br></br>
+        <br></br>
       </>
     );
   };

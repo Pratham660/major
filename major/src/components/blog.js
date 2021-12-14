@@ -107,7 +107,7 @@ return (
         <br></br>
         {repo.map((repos)=> (
             <div>
-                <MDBCard style={{ width: '90vw' ,marginLeft: '4vw',marginTop: '10px',backgroundColor :'#f2f2f2'}}>
+                <MDBCard style={{ width: '90vw' ,marginLeft: '4vw',marginTop: '10px',marginBottom:'20px',backgroundColor :'#f2f2f2'}}>
       <MDBCardBody>
         <MDBCardTitle>Doubt No. {repos.id}</MDBCardTitle>
         <hr></hr>
@@ -116,8 +116,8 @@ return (
         </MDBCardText>
         <hr></hr>
         <MDBCardSubTitle>Posted by {repos.postedby}: on {repos.createdAt}</MDBCardSubTitle>
-        <MDBCardLink href='#'>Reply</MDBCardLink>
-        <MDBCardLink href='#'>Like</MDBCardLink>
+        {/* <MDBCardLink href='#'>Reply</MDBCardLink>
+        <MDBCardLink href='#'>Like</MDBCardLink> */}
       </MDBCardBody>
     </MDBCard>
             </div>

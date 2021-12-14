@@ -8,9 +8,9 @@ export default function NavBar(){
         window.location.href = 'http://localhost:3000/';
     };
     return(
-       
-        <header className='navbar'>
-             <a className="navbar__title " href="http://localhost:3000/"><img src={logo} width="65%"></img></a> 
+       <>
+        <header className='navbar' style={{boxShadow: "3px 3px 10px #abfcff"}}>
+             <a className="navbar__title " href="http://localhost:3000/home"><img src={logo} width="65%"></img></a> 
             <div className='navbar__item'>
              <a style={{color: 'black',textDecoration: 'none'}} href="http://localhost:3000/ipage1">Interview Prep</a>
             </div>
@@ -22,10 +22,14 @@ export default function NavBar(){
             <a style={{color: 'black',textDecoration: 'none'}} href="http://localhost:3000/discuss">Discuss</a>
             </div>
             <div className='navbar__item'>
-             <a style={{color: 'black',textDecoration: 'none'}} href="http://localhost:3000/video" target={"__blank"}>Video Chat</a>
+             <a style={{color: 'black',textDecoration: 'none'}} href="http://localhost:3000/video">Video Chat</a>
             </div>
             <div className='navbar__item'><input type="button" value={'logout'} onClick={handleClick}></input></div>
         </header>
+        <div style={{backgroundColor:'#edfeff'}}>
+            <div style={{textAlign:'center',fontSize:"medium",fontWeight:"500", marginTop:"6px"}}><h3>Welcome back , <b>{localStorage.getItem('curruser')}</b></h3></div>
+        </div>
+        </>
    
     );
 } 

@@ -6,33 +6,41 @@ import Navbar from "./routes/Navbar";
 const interview_pre = () => {
   const DisplayData = Data.map((problem) => {
     return (
-      <tr>
-        <td>{problem.number}</td>
+      <tr style={{backgroundColor:"#fbe6fc"}}>
+        <td style={{borderRight:"1px solid black"}}>{problem.number})</td>
         {/* <td>{problem.topic}</td> */}
-        <td>{problem.name}</td>
+        <td style={{borderRight:"1px solid black"}}>{problem.name}</td>
         <td>
-          <a href={problem.link} target="_blank">
-            {" "}
-            <button
-              className="btn info"
-              onClick='window.location.href="https://www.google.com"'
-            >
-              solve
-            </button>{" "}
+          <a href={problem.link} target="_blank" style={{fontSize:"10px",backgroundColor:"#98ff8c", textDecoration:"none",height:"30px", width:"60px",fontSize:"large",border:"2px solid black",textAlign:"center",borderRadius:"25px"}}>
+            Solve
+            {/* <button style={{fontSize:"10px",backgroundColor:"#98ff8c"}}>
+            solve
+            </button> */}
           </a>
         </td>
       </tr>
     );
   });
+  const mystyle={
+    width:"80vw",
+    border:"2px solid black",
+    margin:"auto",
+    fontSize:"large",
+    backgroundColor:"#f9b5ff",
+    marginTop:"20px",
+    marginBottom:"30px"
+  }
   return (
     <div>
       <Navbar></Navbar>
-      <table class="table table-striped">
+      <br></br>
+      <h2 style={{fontSize:"xx-large",textAlign:"center"}}>Arrays</h2>
+      <table class="table table-striped" style={mystyle}>
         <thead>
           <tr>
-            <th>Sr.NO</th>
+            <th style={{borderRight:"1px solid black"}}>Sr.NO</th>
             {/* <th>Topic</th> */}
-            <th>Name</th>
+            <th style={{borderRight:"1px solid black"}}>Name</th>
             <th>Link</th>
           </tr>
         </thead>

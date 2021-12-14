@@ -64,7 +64,7 @@ const Blog = db.define('blogs3', {
     autoIncrement: true
   },
   doubt: {
-    type: Sequelize.DataTypes.STRING(30),
+    type: Sequelize.DataTypes.STRING(300),
     unique: true,
     allowNull: false
   },
