@@ -19,7 +19,7 @@ export default function Ipage1() {
     {
       resolve: autoplayPlugin,
       options: {
-        interval: 1200,
+        interval: 1000,
       }
     },
   ]}   
